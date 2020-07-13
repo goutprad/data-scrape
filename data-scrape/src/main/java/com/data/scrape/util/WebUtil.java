@@ -1,17 +1,19 @@
-package com.data.scrape;
+package com.data.scrape.util;
 
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.data.scrape.Books;
+import com.data.scrape.Category;
 import com.gargoylesoftware.htmlunit.FailingHttpStatusCodeException;
 import com.gargoylesoftware.htmlunit.WebClient;
 import com.gargoylesoftware.htmlunit.html.HtmlElement;
 import com.gargoylesoftware.htmlunit.html.HtmlPage;
 
 public class WebUtil {
-	List<Category> categoryList = null;
-	List<Books> bookList = null;
+	public List<Category> categoryList = null;
+	public List<Books> bookList = null;
 	public void getWebDetails() {
 		categoryList = new ArrayList<>();
 		bookList = new ArrayList<>();
