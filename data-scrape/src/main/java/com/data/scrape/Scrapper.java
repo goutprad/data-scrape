@@ -18,7 +18,7 @@ public class Scrapper {
 
 		// Get Connection
 		try {
-			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/employee", "root", "1234");
+			con = DriverManager.getConnection("jdbc:mysql://<URL>/<dbName>", "<UserName>", "<Password>");
 			statement = con.createStatement();
 
 			// Insert to RDBMS - Category
