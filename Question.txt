@@ -1,0 +1,22 @@
+Part I.
+Data Collection: Create a scraping infra to scrape the following website:
+http://books.toscrape.com/
+The data you scrape should ideally contain the following 2 classes with the features listed:
+
+1. Books
+a)Name
+b)Image Link
+c)Rating
+d)Price
+e)In-Stock or not
+f)Category
+2. Category
+a)Name
+b)Link
+
+Part II.
+Data Warehousing: Create a warehousing infra to store the above scraped data in a
+Database/Platform of your choice. A sample of the data is enough for submission.
+Timeline: 1 day.
+Programming Language: Any, preferably Python. Please use git for version-control.
+Submission: Code and Data-Sample in any format.
